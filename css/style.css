@@ -198,6 +198,11 @@ ul, ol {
     padding-bottom: 120px;
 }
 
+.md-padding_team {
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
 .sm-padding {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -759,6 +764,8 @@ header {
     transition: 0.2s opacity;
     -webkit-transition-delay: 0.2s;
     transition-delay: 0.2s;
+    outline: 5px solid white;
+    outline-offset: -20px;
 }
 
 .work:hover .overlay {
@@ -1922,4 +1929,9 @@ background-color: transparent !important;
 
 .portal-div:hover ~ .green-border1{
     border: 2px solid #3da90e;    
+}
+
+.head-team{
+    color: white;
+    margin-left: 42%;
 }
